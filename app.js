@@ -5,22 +5,24 @@ const output = document.querySelector(".answerBox");
 const display = s => output.innerText = s;
 
 answers =[
-    'yes', 
-    'no', 
-    'well', 
-    'no.. no. for sure'
+    'YES', 
+    'No, wait', 
+    'Hmm, I mean, why not?', 
+    'Nah, fr, idk',
+    'Ask someone else',
+    ' '
 ];
 
 const delayLoop = (fn, delay) => {
     return (answer, i) => {
         setTimeout(() => {
           display(answer);
-        }, i * 1000);
+        }, i * 1800);
   };
 };
 
 submit.addEventListener("click", () => {
-    answers.forEach(delayLoop(display, 1000));
+    answers.forEach(delayLoop(display, 1800));
     answerBox.style.display = "block";
       });
 

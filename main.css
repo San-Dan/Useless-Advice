@@ -13,7 +13,6 @@ section {
 label {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
-    
 }
 
 input {
@@ -27,6 +26,8 @@ button {
     border-radius: 2rem;
     border: 3px;
     background-color: var(--btn-bg);
+    cursor: pointer;
+    outline: none;
 }
 
 #block {
