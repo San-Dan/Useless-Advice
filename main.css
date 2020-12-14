@@ -2,12 +2,13 @@ main {
     display: flex;
     justify-content: center;
     height: 100vh;
-    margin-top: 40px;
+    margin-top:20px;
 }
 
 section {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 label {
@@ -16,22 +17,21 @@ label {
 }
 
 input {
-    height: 2rem;
+    height: 5rem;
+    width: 80%;
     margin-top: 1rem;
+    
 }
 
 button {
-    height: 2.5rem;
+    min-height: 2.5rem;
+    width: 80%;
     margin-top: 1rem;
     border-radius: 2rem;
     border: 3px;
     background-color: var(--btn-bg);
     cursor: pointer;
     outline: none;
-}
-
-#block {
-    display:none;
 }
 
 .answerBox {
@@ -44,3 +44,55 @@ button {
     font-size: 3rem;
     text-align: center;
 } 
+
+#block {
+    display:none;
+}
+
+/* LARGER SCREENS */
+@media screen and (min-width: 460px) {
+    main {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        margin-top: 40px;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    label {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 2rem;
+    }
+    
+    input {
+        height: 2rem;
+        margin-top: 1rem;
+    }
+    
+    button {
+        min-height: 2.5rem;
+        width: 10rem;
+        margin-top: 1rem;
+        border-radius: 2rem;
+        border: 3px;
+        background-color: var(--btn-bg);
+        cursor: pointer;
+        outline: none;
+    }
+
+    .answerBox {
+        height: 10rem;
+        width: 20rem;
+        margin-top: 4rem;
+        background-color: bisque;
+        border: solid 3px;
+        border-radius: 1rem;
+        font-size: 3rem;
+        text-align: center;
+    } 
+}
