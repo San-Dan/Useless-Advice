@@ -25,11 +25,25 @@ submit.addEventListener("click", () => {
       });
 
 
-// HOVER HEART 
+// HOVER HEART FOR QUOTE
 
 const heart = document.querySelector(".heart");
-const quoteBox = document.queryselector(".quoteBox");
+const quoteBox = document.querySelector("#doggo");
 
-heart.addEventListener("mouseover", () => {
-    // nån function
+heart.addEventListener("mouseenter", () => {
+    quoteBox.style.display = "block";
+});
+
+heart.addEventListener("mouseleave", () => {
+  quoteBox.style.display = "none";
+});
+
+// TOUCH HEART
+
+heart.addEventListener("touchstart", () => {
+  quoteBox.style.display = "block";
+});
+
+heart.addEventListener("touchend", () => {
+quoteBox.style.display = "none";
 });

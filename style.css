@@ -23,12 +23,16 @@ body {
 header {
     margin:0;
     text-align: center;
-    font-family: 'Open Sans';
-    font-style: oblique;
-    font-size: 1.2rem;
+    
     padding: 20px;
     top: 0;
     width: 100%;
+}
+
+header p {
+    font-family: 'Open Sans';
+    font-style: oblique;
+    font-size: 1.2rem;
 }
 
 h1 {
