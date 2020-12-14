@@ -20,7 +20,8 @@ input {
     height: 5rem;
     width: 80%;
     margin-top: 1rem;
-    
+    border-radius: 1.8rem;
+    border: solid 1.8px;
 }
 
 button {
@@ -35,13 +36,12 @@ button {
 }
 
 .answerBox {
-    height: 10rem;
-    width: 20rem;
-    margin-top: 4rem;
-    background-color: bisque;
-    border: solid 3px;
-    border-radius: 1rem;
-    font-size: 3rem;
+    height: 7rem;
+    width: 15rem;
+    margin-top: 2rem;
+    background-color: rgb(215, 117, 224);
+    border: dotted 2px;
+    font-size: 2rem;
     text-align: center;
 } 
 
@@ -70,7 +70,7 @@ button {
     }
     
     input {
-        height: 2rem;
+        height: 4rem;
         margin-top: 1rem;
     }
     
@@ -89,9 +89,8 @@ button {
         height: 10rem;
         width: 20rem;
         margin-top: 4rem;
-        background-color: bisque;
-        border: solid 3px;
-        border-radius: 1rem;
+        background-color: rgb(215, 117, 224);
+        border: dotted 2px;
         font-size: 3rem;
         text-align: center;
     } 
