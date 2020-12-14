@@ -4,4 +4,4 @@
 
 A useless website made up by HTML, CSS and Vanilla JS
 
-Tested by classmates: Jonathan Larsson and 
+Tested by classmates: Jonathan Larsson and Danta Mogrim.
