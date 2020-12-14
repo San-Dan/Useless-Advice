@@ -23,8 +23,9 @@ body {
 header {
     margin:0;
     text-align: center;
-    font-family: sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Open Sans';
+    font-style: oblique;
+    font-size: 1.2rem;
     padding: 20px;
     top: 0;
     width: 100%;
@@ -34,6 +35,7 @@ h1 {
     font-family: "Clip", sans-serif;
     margin: .5rem;
     font-size: 3rem;
+    font-style: normal;
 }
 
 main {
@@ -67,7 +69,11 @@ button {
     background-color: var(--btn-bg);
 }
 
-.answers {
+#block {
+    display:none;
+}
+
+.answerBox {
     height: 10rem;
     width: 20rem;
     margin-top: 4rem;
@@ -76,9 +82,22 @@ button {
     border-radius: 1rem;
     font-size: 3rem;
     text-align: center;
-}
+} 
 
 img {
     height:200px;
     margin: 3rem;
+    
 }
+
+.quoteContainer {
+    position: relative;
+    text-align: center;
+}
+
+.quoteBox {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }

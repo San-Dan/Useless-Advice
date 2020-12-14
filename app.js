@@ -1,6 +1,7 @@
 // RETURN ANSWERS TO QUESTION
 const submit = document.querySelector(".btn");
-const output = document.querySelector(".answers");
+const answerBox = document.querySelector("#block");
+const output = document.querySelector(".answerBox");
 const display = s => output.innerText = s;
 
 answers =[
@@ -20,13 +21,14 @@ const delayLoop = (fn, delay) => {
 
 submit.addEventListener("click", () => {
     answers.forEach(delayLoop(display, 1000));
+    answerBox.style.display = "block";
       });
 
 
 // HOVER HEART 
 
 const heart = document.querySelector(".heart");
-// const minFunction...
+const quoteBox = document.queryselector(".quoteBox");
 
 heart.addEventListener("mouseover", () => {
     // nån function
