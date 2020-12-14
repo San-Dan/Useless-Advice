@@ -4,4 +4,6 @@
 
 A useless website made up by HTML, CSS and Vanilla JS
 
-Tested by classmates: Jonathan Larsson and Danta Mogrim.
+Tested by classmates: Jonathan Larsson and Dante Mogrim.
+
+https://freeloveadvice.netlify.app/ 
