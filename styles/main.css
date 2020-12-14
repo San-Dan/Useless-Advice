@@ -49,6 +49,15 @@ button {
     display:none;
 }
 
+.pst {
+    position: relative;
+    right: 8rem;
+    border: dashed 1px;
+    text-align: center;
+    margin-top: 2rem;
+    max-width: 100px;
+}
+
 /* LARGER SCREENS */
 @media screen and (min-width: 460px) {
     main {
@@ -86,12 +95,12 @@ button {
     }
 
     .answerBox {
-        height: 10rem;
-        width: 20rem;
+        height: 8rem;
+        width: 12rem;
         margin-top: 4rem;
         background-color: rgb(215, 117, 224);
         border: dotted 2px;
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: center;
     } 
 }

@@ -27,7 +27,7 @@ submit.addEventListener("click", () => {
       });
 
 
-// HOVER HEART FOR QUOTE
+// MOUSE/HOVER HEART FOR QUOTE
 
 const heart = document.querySelector(".heart");
 const quoteBox = document.querySelector("#doggo");
