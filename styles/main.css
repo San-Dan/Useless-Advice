@@ -81,6 +81,7 @@ button {
     input {
         height: 4rem;
         margin-top: 1rem;
+        outline: none;
     }
     
     button {
