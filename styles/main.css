@@ -39,7 +39,7 @@ button {
     height: 7rem;
     width: 15rem;
     margin-top: 2rem;
-    background-color: rgb(215, 117, 224);
+    background-color: var(--answer);
     border: dotted 2px;
     font-size: 2rem;
     text-align: center;
@@ -98,7 +98,7 @@ button {
         height: 8rem;
         width: 12rem;
         margin-top: 4rem;
-        background-color: rgb(215, 117, 224);
+        background-color: var(--answer);
         border: dotted 2px;
         font-size: 2rem;
         text-align: center;
